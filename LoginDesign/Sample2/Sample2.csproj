@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\Fonts\iconfont.ttf" />
+    <None Remove="Assets\Images\logo.jpg" />
+    <None Remove="Assets\Images\登录.png" />
+    <None Remove="Assets\Images\邮箱.png" />
+    <None Remove="Assets\Images\锁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Converters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\iconfont.ttf" />
+    <Resource Include="Assets\Images\logo.jpg" />
+    <Resource Include="Assets\Images\登录.png" />
+    <Resource Include="Assets\Images\邮箱.png" />
+    <Resource Include="Assets\Images\锁.png" />
+  </ItemGroup>
+</Project>

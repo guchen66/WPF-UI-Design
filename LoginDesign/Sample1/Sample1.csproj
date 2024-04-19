@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\Images\Cancel.png" />
+    <None Remove="Assets\Images\Login.png" />
+    <None Remove="Assets\Images\LoginImage.png" />
+    <None Remove="Assets\Images\Logo.png" />
+    <None Remove="Assets\Images\yao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\Cancel.png" />
+    <Resource Include="Assets\Images\Login.png" />
+    <Resource Include="Assets\Images\LoginImage.png" />
+    <Resource Include="Assets\Images\Logo.png" />
+    <Resource Include="Assets\Images\yao.png" />
+  </ItemGroup>
+</Project>
